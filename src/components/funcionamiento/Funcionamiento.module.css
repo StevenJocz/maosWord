@@ -1,0 +1,148 @@
+.Funcionamiento {
+    width: 100%;
+    padding: 7% 10%;
+    background-color: var(--bg-blanco);
+    margin-top: 5%;
+    
+}
+
+.Funcionamiento h2 {
+    font-size: 3.7em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+    text-align: center;
+}
+
+.Funcionamiento h2 span {
+    background: var(--Gradient, linear-gradient(100deg, var(--text-secundario) 37.82%, var(--text-terciario) 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Funcionamiento h3 {
+    font-size: 3.5em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background: var(--Gradient, linear-gradient(100deg, var(--text-terciario) 37.82%, var(--text-septimo) 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.Texto {
+    font-size: 1.7em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-secundario);
+    text-align: center;
+}
+
+.Content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    margin-top: 7%;
+    position: relative;
+}
+
+.Content_Card {
+    height: 350px;
+    text-align: center; 
+    position: relative;
+    z-index: 100;
+}
+
+.Content_Icono {
+    background-color: var(--bg-decimo);
+    box-shadow: var(--shadow-septimo);
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.8rem;
+    height: 5.8rem;
+    margin: 30px 30% ;
+}
+
+.Icono {
+    font-size: 2em;
+    color: var(--text-secundario);
+}
+
+.Content_Card h4 {
+    font-size: 1.6em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background: var(--Gradient, linear-gradient(100deg, var(--text-terciario) 37.82%, var(--text-septimo) 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Content_Card p {
+    font-size: 1.2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-secundario);
+}
+
+.Content_Numero {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.3rem;
+    height: 4.3rem;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    transform-origin: center;
+    border-radius: 50%;
+    text-transform: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.0115em;
+    line-height: 1.6666666667;
+    transition: .10s;
+    -webkit-transition: .10s;
+    -moz-transition: .10s;
+    -ms-transition: .10s;
+    -o-transition: .10s;
+}
+
+.Content_Card:hover .Content_Numero {
+    background-color: var(--text-octavo);
+}
+
+.Content_Numero span {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--bg-primario);
+    color: var(--text-decimo);
+}
+
+.wave {
+    width: 85%;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 6%;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}

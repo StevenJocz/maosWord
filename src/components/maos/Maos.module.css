@@ -1,0 +1,77 @@
+.Maos {
+    width: 100%;
+    padding: 7% 10%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.Maos h2 {
+    font-size: 3.7em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.Maos h2 span {
+    background: var(--Gradient, linear-gradient(100deg, var(--text-secundario) 37.82%, var(--text-terciario) 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Maos p {
+    font-size: 1.7em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-secundario);
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.Maos_Content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 7%;
+    position: relative;
+    z-index: 100;
+}
+
+.Imagen {
+    width: 100%;
+    height: 500px;
+    border-radius: 400px;
+    -webkit-border-radius: 400px;
+    -moz-border-radius: 400px;
+    -ms-border-radius: 400px;
+    -o-border-radius: 400px;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.Imagen:active {
+    cursor: grabbing;
+}
+
+.ImagenFondo {
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    opacity: 0.3;
+}

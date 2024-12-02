@@ -1,0 +1,141 @@
+.Blog {
+    width: 100%;
+    margin: 3% 0;
+}
+
+.Blog h1 {
+    font-size: 5em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.Blog h1 span {
+    background: var(--Gradient, linear-gradient(100deg, var(--text-secundario) 37.82%, var(--text-terciario) 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Blog p {
+    font-size: 1.7em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-secundario);
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    z-index: 100;
+}
+
+.Blog_Content{
+    width: 100%;
+}
+
+.Targeta_Principal {
+    width: 100%;
+    padding: 3% 10%;
+    display: flex;
+    gap: 30px;
+    margin: 5% 0;
+}
+
+.Imagen {
+    width: 50%;
+    height: 400px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.Targeta_Principal h3  {
+    font-size: 1.2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background: var(--Gradient, linear-gradient(100deg, var(--text-terciario) 37.82%, var(--text-septimo) 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Targeta_Principal h2 {
+    font-size: 2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+    line-height: 1.3;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+}
+
+.Targeta_Principal p {
+    text-align: left;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.Targeta_Secundario {
+    width: 100%;
+    padding: 3% 10%;
+    background-color: var(--bg-blanco);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.BlogCard {
+    width: 100%;
+    height: 520px;
+    background-color: var(--bg-blanco);
+    color: var(--bg-primario);
+    box-shadow: var(--shadow-quinto);
+    border-radius: .75rem;
+    padding: 1rem 1rem 1.5rem;
+}
+
+.BlogCard_Imagen {
+    width: 100%;
+    border-radius: .75rem;
+}
+
+.BlogCard h3 {
+    font-size: 2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+    line-height: 1.3;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+}
+
+.BlogCard h4 {
+    font-size: 1.5em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background: var(--Gradient, linear-gradient(100deg, var(--text-terciario) 37.82%, var(--text-septimo) 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+}

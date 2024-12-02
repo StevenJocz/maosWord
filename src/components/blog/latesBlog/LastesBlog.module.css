@@ -1,0 +1,42 @@
+.LatestBlog {
+    width: 100%;
+    height: 100vh;
+    padding: 7% 10%;
+    background-color: var(--bg-blanco);
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.latesBlog_Text {
+    width: 60%;
+}
+
+.latesBlog_Text h2 {
+    font-size: 3.5em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+}
+
+.latesBlog_Text h2 span {
+    background: var(--Gradient, linear-gradient(100deg, var(--text-secundario) 37.82%, var(--text-terciario) 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.latesBlog_Text p {
+    font-size: 1.5em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-secundario);
+    margin: 20px 0 30px;
+    line-height: 1.5;
+}
+
+.LastesBlog_Card {
+    width: 40%;
+}

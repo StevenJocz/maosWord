@@ -1,0 +1,47 @@
+.Invitacion {
+    width: 100%;
+    padding: 7% 10%;
+    margin-top: 5%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.Invitacion h2 {
+    font-size: 9.8em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 90%;
+    background: var(--Gradient, linear-gradient(100deg, var(--text-secundario) 37.82%, #fafbfa9d 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.Imagen {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.Invitacion div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

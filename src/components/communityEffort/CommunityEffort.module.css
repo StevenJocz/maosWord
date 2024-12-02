@@ -1,0 +1,122 @@
+.CommunityEffort {
+    width: 100%;
+    height: 100vh;
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Texto {
+    width: 60%;
+}
+
+.Texto h2 {
+    font-size: 3.7em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+}
+
+.Texto p {
+    font-size: 1.5em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-secundario);
+    margin: 20px 0 30px;
+    line-height: 1.5;
+}
+
+.Texto span {
+    background-color: var(--text-quinto);
+    color: var(--text-decimo);
+    font-weight: 500;
+    padding: 0 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-right: 5px;
+}
+
+.Texto ul {
+    width: 100%;
+    list-style: none;
+}
+
+.Texto ul li {
+    font-size: 1.5em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-secundario);
+    margin: 20px 0 30px;
+}
+
+.Icono {
+    color: var(--text-terciario);
+    margin-right: 10px;
+}
+
+
+.Comentarios {
+    width: 50%;
+}
+
+.ComentariosContent {
+    width: 100%;
+    height: 120px;
+    background-color: var(--bg-blanco);
+    color: var(--bg-primario);
+    box-shadow: var(--shadow-quinto);
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    margin-bottom: 50px;
+}
+
+
+.ComentariosContent:nth-child(2n) {
+    margin-left: 50px;
+}
+
+.Imagen {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 30px;
+}
+
+.ComentariosContent h3 {
+    font-size: 1.2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+}
+
+.ComentariosContent h3 span {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-septimo);
+    margin-left: 30px;
+}
+
+.ComentariosContent p {
+    font-size: 1.1em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-secundario);
+}
