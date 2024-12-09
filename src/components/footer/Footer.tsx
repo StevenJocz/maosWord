@@ -17,11 +17,15 @@ const Footer = () => {
                 <ul>
                     <Navigator pathNames={[Routes.CONTACTENOS, Routes.PRIVACIDA, Routes.TERMINOS]} />
                 </ul>
-                <div className={style.Footer_Content_Input}>
-                    <IoLogoFacebook />
-                    <IoLogoInstagram />
-                    <IoLogoYoutube />
-                    <IoLogoWhatsapp />
+                <div className={style.Footer_Content_Icono}>
+                    <h3>Síguenos en</h3>
+                    <div>
+                        <IoLogoFacebook className={`${style.Icono} ${style.Facebook}`} />
+                        <IoLogoInstagram className={`${style.Icono} ${style.Instagram}`} />
+                        <IoLogoYoutube className={`${style.Icono} ${style.Youtube}`} />
+                        <IoLogoWhatsapp className={`${style.Icono} ${style.Whatsapp}`} />
+                    </div>
+
                 </div>
             </div>
             <p>© 2024 desarrollado por Hamilton Espinal para MAO'S WORD. Todos los derechos reservados.</p>

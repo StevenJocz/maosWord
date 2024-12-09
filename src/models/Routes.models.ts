@@ -1,3 +1,5 @@
+const RUTA_PRIVADA = 'http://localhost:3000';
+
 export  const Routes = {
     HOME : {
         path: '/',
@@ -20,7 +22,7 @@ export  const Routes = {
         name: 'Contáctenos'
     },
     LOGIN: {
-        path: '/paginas/login',
+        path: `${RUTA_PRIVADA}`,
         name: 'Empieza ahora'
     },
     PRIVACIDA: {

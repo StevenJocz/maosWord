@@ -1,0 +1,115 @@
+.Productos {
+    width: 100%;
+    margin: 3% 0;
+}
+
+.Productos_Titutlo {
+    width: 100%;
+    padding: 3% 13%;
+}
+
+.Productos_Titutlo h1 {
+    font-size: 5em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.Productos_Titutlo h1 span {
+    background: var(--Gradient, linear-gradient(100deg, var(--text-secundario) 37.82%, var(--text-terciario) 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Productos_Titutlo p {
+    font-size: 1.7em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-secundario);
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    z-index: 100;
+}
+
+.Productos_Content {
+    width: 100%;
+    padding: 3% 10%;
+    background-color: var(--bg-blanco);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.Productos_Content_Targeta {
+    width: 100%;
+    background-color: var(--bg-blanco);
+    color: var(--bg-primario);
+    box-shadow: var(--shadow-quinto);
+    border-radius: .75rem;
+    padding: 1rem 1rem 1.5rem;
+}
+
+.Productos_Content_Targeta h2 {
+    font-size: 5em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.Productos_Content_Targeta h2 span {
+    background: var(--Gradient, linear-gradient(100deg, var(--text-secundario) 37.82%, var(--text-terciario) 87.12%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Productos_Content_Targeta h3 {
+    font-size: 2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text-secundario);
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    margin-top: -10px;
+}
+.Targeta_Header_Imagen {
+    margin: 0 5%;
+}
+.Productos_Content_Targeta  p {
+    font-size: 1.3em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-secundario);
+    margin-top: -20px;
+}
+
+.Productos_Content_Targeta ul {
+    width: 100%;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.Productos_Content_Targeta ul li {
+    font-size: 1.2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-terciario);
+    margin-bottom: 10px;
+}
+
+.Targeta_Header_Boton {
+    margin-top: 30px;
+}

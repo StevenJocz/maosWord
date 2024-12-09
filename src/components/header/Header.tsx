@@ -29,7 +29,7 @@ const Header = () => {
                 className={style.Imagen}
                 alt="Mao"
                 width={450}
-                height={600}
+                height={450}
                 placeholder="blur" // Activa el efecto de desenfoque
                 blurDataURL="data:image/svg+xml;base64,..." // Agrega una URL de baja resolución
             />

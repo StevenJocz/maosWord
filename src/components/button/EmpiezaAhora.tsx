@@ -38,11 +38,18 @@ function EmpiezaAhora({ type }: Props) {
                     Leer Más Noticias
                     <IoArrowForward className={styles.Icono} />
                 </Link>
-            ) :(
+            ): type === 5 ? (
                 <Link
                     href={Routes.BLOG.path}
                     className={styles.LeerMas}>
                     Leer Más 
+                    <IoArrowForward className={styles.Icono} />
+                </Link>
+            ) :(
+                <Link
+                    href={Routes.PRODUCTOS.path}
+                    className={styles.Incripcion}>
+                    Incríbirme
                     <IoArrowForward className={styles.Icono} />
                 </Link>
             )}

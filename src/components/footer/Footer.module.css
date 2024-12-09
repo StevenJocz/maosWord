@@ -21,7 +21,7 @@
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
-    background: var(--Gradient, linear-gradient(100deg,  var(--text-secundario) 37.82%, var(--text-terciario) 87.12%));
+    background: var(--Gradient, linear-gradient(100deg, var(--text-secundario) 37.82%, var(--text-terciario) 87.12%));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -42,8 +42,50 @@
     unicode-bidi: isolate;
 }
 
-.Footer_Content ul li:hover{
+.Footer_Content ul li:hover {
     color: var(--text-terciario);
+}
+
+.Footer_Content_Icono h3 {
+    font-size: 22px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--text-negro);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Footer_Content_Icono div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.Icono {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Facebook {
+    color: #3b5998;
+}
+
+.Instagram {
+    background: linear-gradient(45deg, #833AB4, #FD1D1D, #F56040, #FFC107);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.Youtube {
+    color: #FF0000;
+}
+
+.Whatsapp {
+    color: #25D366;
 }
 
 .Footer p {

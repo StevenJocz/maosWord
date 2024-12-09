@@ -41,7 +41,7 @@ const Maos = () => {
                                 className={style.wave}
                                 alt={item.imagen.alt}
                                 width={300}
-                                height={400}
+                                height={300}
                                 placeholder="blur"
                                 blurDataURL="data:image/svg+xml;base64,..."
                             />
